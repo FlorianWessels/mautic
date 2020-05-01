@@ -68,7 +68,7 @@ class ReleaseParserTest extends TestCase
     public function testMatchingReleaseReturnedForAlphaStability()
     {
         $expects       = '3.0.1-beta';
-        $phpVersion    = '7.3.0';
+        $phpVersion    = '7.4.0';
         $mauticVersion = '3.0.0-alpha';
         $stability     = 'alpha';
 
@@ -80,7 +80,7 @@ class ReleaseParserTest extends TestCase
     public function testMatchingReleaseReturnedForBetaStability()
     {
         $expects       = '3.0.1-beta';
-        $phpVersion    = '7.3.0';
+        $phpVersion    = '7.4.0';
         $mauticVersion = '3.0.0-alpha';
         $stability     = 'beta';
 
@@ -92,7 +92,7 @@ class ReleaseParserTest extends TestCase
     public function testMatchingReleaseReturnedForStableStability()
     {
         $expects       = '3.0.0';
-        $phpVersion    = '7.3.0';
+        $phpVersion    = '7.4.0';
         $mauticVersion = '2.20.0';
         $stability     = 'stable';
 

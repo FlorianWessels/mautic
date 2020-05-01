@@ -22,7 +22,7 @@ class MetadataTest extends TestCase
             'version'                => '3.2.1',
             'stability'              => 'stable',
             'minimum_php_version'    => '7.2.21',
-            'maximum_php_version'    => '7.3.99',
+            'maximum_php_version'    => '7.4.99',
             'minimum_mautic_version' => '3.0.0-alpha',
             'announcement_url'       => '',
         ];
@@ -47,7 +47,7 @@ class MetadataTest extends TestCase
             'version'                => '3.2.1-beta',
             'stability'              => 'beta',
             'minimum_php_version'    => '7.2.21',
-            'maximum_php_version'    => '7.3.99',
+            'maximum_php_version'    => '7.4.99',
             'minimum_mautic_version' => '3.0.0-alpha',
             'announcement_url'       => '',
         ];
