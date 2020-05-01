@@ -76,7 +76,7 @@ class AbstractCampaignCommand extends MauticMysqlTestCase
         $this->applySqlFromFile($tmpFile);
     }
 
-    public function tearDown()
+    public function tearDown(): void
     {
         parent::tearDown();
 

@@ -120,7 +120,7 @@ class SalesforceIntegrationTest extends AbstractIntegrationTestCase
     /**
      * Reset.
      */
-    public function tearDown()
+    public function tearDown(): void
     {
         $this->returnedSfEntities           = [];
         $this->persistedIntegrationEntities = [];

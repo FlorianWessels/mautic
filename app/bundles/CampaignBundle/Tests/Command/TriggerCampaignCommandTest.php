@@ -20,7 +20,7 @@ class TriggerCampaignCommandTest extends AbstractCampaignCommand
         putenv('CAMPAIGN_EXECUTIONER_SCHEDULER_ACKNOWLEDGE_SECONDS=1');
     }
 
-    public function tearDown()
+    public function tearDown(): void
     {
         parent::tearDown();
 

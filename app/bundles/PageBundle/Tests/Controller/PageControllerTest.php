@@ -31,7 +31,7 @@ class PageControllerTest extends MauticMysqlTestCase
     /**
      * @throws \Doctrine\DBAL\ConnectionException
      */
-    public function tearDown()
+    public function tearDown(): void
     {
         $this->db->rollBack();
     }
