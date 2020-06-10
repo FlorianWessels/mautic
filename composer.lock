@@ -9258,6 +9258,12 @@
                 "url": "https://github.com/mautic/intl.git",
                 "reference": "d2ac83703951bc3206e9ea3f6114b355de14e3ce"
             },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mautic/intl/zipball/d2ac83703951bc3206e9ea3f6114b355de14e3ce",
+                "reference": "d2ac83703951bc3206e9ea3f6114b355de14e3ce",
+                "shasum": ""
+            },
             "require": {
                 "php": "^5.5.9|>=7.0.8",
                 "symfony/polyfill-intl-icu": "~1.0"
@@ -11711,6 +11717,12 @@
                 "type": "git",
                 "url": "https://github.com/mautic/BazingaOAuthServerBundle.git",
                 "reference": "35979d2d341e4b10d40777328723511c71213a73"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mautic/BazingaOAuthServerBundle/zipball/35979d2d341e4b10d40777328723511c71213a73",
+                "reference": "35979d2d341e4b10d40777328723511c71213a73",
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.1",
